@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="스위치 계산기"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text=""
+        android:textColor="#e10c73"
+        android:textSize="10dp" />
+
+    <EditText
+        android:id="@+id/num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="숫자입력" />
+
+    <!-- <EditText
+         android:id="@+id/num2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:textSize="5dp"
+         android:hint="두번째 숫자(정수)" />-->
+
+    <Button
+        android:id="@+id/addbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#e9abe0"
+        android:text="+"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/minusbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#e9abe0"
+        android:text="-"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/mulbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#e9abe0"
+        android:text="x"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/divbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#e9abe0"
+        android:text="%"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/equal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#e9abe0"
+        android:text="="
+        android:textSize="20dp" />
+
+  <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="검색결과"
+        android:textColor="#e10c73"
+        android:textSize="30dp" />
+</LinearLayout>
